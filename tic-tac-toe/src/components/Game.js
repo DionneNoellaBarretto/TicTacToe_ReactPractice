@@ -11,7 +11,7 @@ export default function Game() {
   const tiles = Array(9).fill(null);
 
   return (
-    <div>
+    <div className="game">
       <div className="gameBoard">
         <Board tiles={tiles}></Board>
       </div>

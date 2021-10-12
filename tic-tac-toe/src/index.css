@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+
+
+*{
+  box-sizing:border-box;
+}
+
+body {
+  /*  maximum width */
+  width:100%; 
+  /* maximum displayable height */ 
+  height: 100vh;
+  /* centering element */
+  display: flex;
+  /* horizontal alignment */
+  justify-content: center;
+  /* vertical alignment */
+  align-items: center;
+  /* leverage my random color picker  https://dionnenoellabarretto.github.io/RandomHexCodeColorGradientSelector/ :)  */
+  background: linear-gradient(45deg, #3D31DF, #21CD60, #FB1C36);
+}
+
+.btn {
+  background-color: #3150B6;
+  color: #E0F203;
+  /* <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet"> */
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  margin: 15px;
+  padding: 5px;
+  border: 2px dashed gray;
+  border-radius: 2px;
+  box-shadow: 0 12px rgb(87, 86, 86), 0 18px rgba (0,0,0,0.4);
+  font-size: 60px;
+  width: 90px;
+  height: 80px;
+  cursor: pointer;
+  position: relative;
+  top: 0;
+}
+
+.btn:hover{
+  background-color: #e0c944;
+  color: #340cc5;
+  top: 4px;
+  box-shadow: 0 80px rgb(87, 86, 86), 0 14px rgba (0,0,0,0.4);
+}
+
+.btn:active {
+  top: 8px;
+  box-shadow: 0 4px rgb(87, 86, 86), 0 10px rgba (0,0,0,0.4);
+}
+
+.game{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gameInfo {
+  margin: 15px;
+  color: #fff;
+}
+
+.board > div {
+display: flex;
+}

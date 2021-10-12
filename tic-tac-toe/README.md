@@ -1,9 +1,3 @@
-# TicTacToe React App
-a) UI
-b) Button functionality
-c) Winner Determination condition
-d) Deploy up in the cloud
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -2,11 +2,14 @@ import React from "react";
 import Board from "./Board";
 
 export default function Game() {
-  const currentPlayer = "Next Player is X";
+  
+  const currentPlayer = 
+     "Next Player is X"
+
   const moveHistory = (
-    <li>
+    <ul>
       <button>Begin Game</button>
-    </li>
+    </ul>
   );
   const tiles = Array(9).fill(null);
 
